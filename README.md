@@ -136,17 +136,27 @@ Purpose:
 Helps analyze whether longer waiting time increases no-show probability.
 
 📊 RESULTS SUMMARY
+
 ══════════════════════════════════════════════
+
 DATA QUALITY METRICS
+
 ══════════════════════════════════════════════
 
 ✔ Missing Values Handled
+
 ✔ Duplicate Records Removed
+
 ✔ Date Columns Standardized
+
 ✔ Invalid Ages Removed
+
 ✔ Column Names Standardized
+
 ✔ Target Variable Converted
+
 ✔ New Feature Engineered
+
 ✔ Dataset Ready for Analysis
 
 🚀 HOW TO RUN
@@ -159,12 +169,19 @@ python medical_data_cleaning.py
 Expected Output
 
 ✔ Dataset loaded
+
 ✔ Missing values checked
+
 ✔ Duplicates removed
+
 ✔ Date formats converted
+
 ✔ Age validated
+
 ✔ Target column encoded
+
 ✔ Feature engineered
+
 ✔ Clean dataset saved
 
 Output File:
@@ -172,12 +189,19 @@ cleaned_medical_no_show.csv
 
 💡 KEY CONCEPTS APPLIED
 Concept	Implementation	Why It Matters
-Missing Value Handling	dropna()	Prevents biased analysis
-Duplicate Removal	drop_duplicates()	Avoids repeated records
-Date Conversion	pd.to_datetime()	Enables time analysis
-Outlier Handling	Age filtering	Ensures data validity
-Standardization	Lowercase formatting	Clean structure
-Feature Engineering	waiting_days	Adds analytical value
+Missing Value Handling	dropna()	
+Prevents biased analysis
+Duplicate Removal	drop_duplicates()	
+Avoids repeated records
+Date Conversion	pd.to_datetime()	
+Enables time analysis
+Outlier Handling	
+Age filtering	Ensures data validity
+Standardization	Lowercase formatting	
+Clean structure
+Feature Engineering	waiting_days	
+Adds analytical value
+
 📚 LEARNINGS & INSIGHTS
 What I Learned
 
@@ -205,13 +229,21 @@ medical-appointment-data-cleaning/
 ✅ TASK COMPLETION CHECKLIST
 
 ✔ Identified and handled missing values
+
 ✔ Removed duplicate records
+
 ✔ Standardized column names
+
 ✔ Converted date formats
+
 ✔ Fixed invalid age values
+
 ✔ Converted target column to numeric
+
 ✔ Created new analytical feature
+
 ✔ Documented all changes
+
 ✔ Uploaded to GitHub
 
 🔗 REPOSITORY INFORMATION
